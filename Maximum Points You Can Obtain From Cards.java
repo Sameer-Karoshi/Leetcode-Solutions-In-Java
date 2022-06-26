@@ -1,7 +1,6 @@
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
         int sublen = cardPoints.length - k;
-        //System.out.println(sublen);
         int totalsum = 0;
         for(int i: cardPoints){
             totalsum = totalsum + i;
